@@ -3,11 +3,6 @@ import threading
 import sys 
 import argparse
 
-
-#TODO: Implement all code for your server here
-
-# Use sys.stdout.flush() after print statemtents
-
 parser = argparse.ArgumentParser(description='Chatroom server')
 parser.add_argument('-start', action='store_true')
 parser.add_argument('-port')
