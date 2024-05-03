@@ -1,2 +1,2 @@
 # ChatRoom
-Simple local chatroom in Python
+A simple local chat room on Python using sockets and threading.
