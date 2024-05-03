@@ -5,10 +5,6 @@ import select
 import datetime
 import argparse
 
-#TODO: Implement a client that connects to your server to chat with other clients here
-
-# Use sys.stdout.flush() after print statemtents
-
 parser = argparse.ArgumentParser(description='Client for connecting to chatroom')
 parser.add_argument('-join', action='store_true')
 parser.add_argument('-host')
